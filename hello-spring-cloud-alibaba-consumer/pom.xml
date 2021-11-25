@@ -51,7 +51,13 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
-        <!-- Spring Cloud End -->
+        <!-- seata -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
     <build>
